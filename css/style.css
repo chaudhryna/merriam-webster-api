@@ -1,0 +1,66 @@
+/* The official colors of the Merriam-Webster Logo are red (R:215 G:25 B:32 or #D71920) ring(s), white circle, and blue (R:0 G:73 B:144 or #004990) type. */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(63, 91, 111);
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3em;
+}
+
+.logo {
+  max-width: 10em;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+#container {
+  margin: 6em auto;
+  max-width: 700px;
+  background-color: rgba(189, 195, 199, .8);
+  padding: 2em 3em;
+  border-radius: 12px;
+}
+
+button {
+  background-color: #D71920;
+  color: white;
+  padding: .5em 1em;
+  border-radius: 12px;
+  border: none;
+  margin-left: 1em;
+}
+
+button:hover {
+  background-color: #4d0c0f;
+  color: white;
+  cursor: pointer;
+}
+
+.wordEntry {
+  font-size: 4rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+  color: rgb(86, 123, 147);
+  font-size: 1.8rem;
+}
+
+.fa-volume-high {
+  color: #004990;
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 1.5em;
+}
